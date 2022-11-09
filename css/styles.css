@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 62.5;
+    font-family: 'Montserrat', sans-serif;
+}
+
+header {
+    vertical-align: middle;
+    background-color: rgba(245, 244, 244, 0.69);
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    width: 10rem;
+    margin-left: 1rem;
+
+}
+/* Tipografía de google fonts elegida: 
+
+font-family: 'Montserrat', sans-serif; */
+
+nav {
+    width: 100%;
+    margin-right: 160px;
+    border-bottom: solid rgba(128, 128, 128, 0.386);
+}
+.menu_navegacion {
+    display: flex;
+    justify-content: center;
+}
+.menu_navegacion li {
+    list-style: none;
+}
+
+.menu_navegacion li a {
+    text-decoration: none;
+    margin: 0 0.5rem;
+}
+
+.hero {
+    width: 100%;
+}
+
+.cards {
+    padding: 80px 0;
+}
+
+.cards .container {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: solid 1px black;
+    width: 20rem;
+    margin: 0 20px;
+}
+
+.img_producto1 {
+    width: 100%;
+}
+
+.nombre_producto {
+    font-size: larger;
+    margin-bottom: 1rem;
+    font-weight: 500;
+}
+
+.txt {
+    padding: 10px;
+}
+
+.boton_comprar {
+    margin-top: 10px;
+    display: inline-block;
+    text-decoration: none;
+    background-color: rgb(2, 97, 128);
+    color: white;
+    padding: 5px 16px;
+    font-weight: 500;
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+}
+
+h1 {
+    text-align: center;
+}
+
+.parrafo_comprar {
+    margin-left: 40px;
+}
+
+.lista_comprar {
+    margin-left: 40px;
+}
+
+.lista_categorias {
+    margin-left: 50px;
+}
+
+.footer_menu li a {
+    text-decoration: none;
+    margin-left: 40px;
+    vertical-align: center;
+}
+
+.footer_menu{
+    margin-top: 40px;
+}
+
+.footer_cajas{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* no pudo centrar el formulario*/
+.formulario_footer {
+    align-items: center;
+}
+
+.footer_mapa { 
+    margin-right: 40px;
+}
+
+.footer_copyright {
+    text-align: center;
+}
+
+.footer_redes img {
+    width: 30px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+}
